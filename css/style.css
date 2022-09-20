@@ -222,13 +222,16 @@ header {
 }
 
 .col-small {
-    width: 40%;
-    
+    width: 40%; 
 }
 
 .row {
     display: flex;
     padding: 40px 0px;
+}
+
+main section:not(:first-child) {
+    margin-top: 400px;
 }
 
 .big-box {
