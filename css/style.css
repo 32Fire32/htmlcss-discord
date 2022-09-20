@@ -53,8 +53,15 @@ body {
 }
 
 .mac-btn {
+    background-color: white;
+    color: black;
     margin: 0 10px;
     font-size: 20px;
+}
+
+.big-box-footer .btn {
+    background-color: #7289DA;
+    color:white;
 }
 
 .bottone {
@@ -182,10 +189,7 @@ main section:last-child {
     width: 80%;    
 }
 
-.big-box-footer .btn {
-    background-color: #7289DA;
-    color:white;
-}
+
 
 /* FOOTER */
 
