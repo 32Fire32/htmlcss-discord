@@ -26,11 +26,6 @@ body {
     /* background-color: #255EE9; */
 }
 
-.debug header{
- /* background-color: #add8e6; */
- padding-top: 16px;
-}
-
 .debug .row-hero{
     /* background-color: #00008b; */
 }
@@ -43,8 +38,8 @@ body {
 }
 
 .debug .col-pink{
-    background-color: #f08080;
-    border: 3px dashed black;
+    /* background-color: #f08080; */
+    /* border: 3px dashed black; */
 }
 
 .debug .col-big{
@@ -67,10 +62,6 @@ body {
     /* border: 3px dashed black; */
 }
 
-.debug .row-footer {
-    height: 630px;
-}
-
 .debug .post-footer {
     height: 110px;
     display: flex;
@@ -81,17 +72,17 @@ body {
 }
 
 .debug .row-acqua {
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
 }
 
 .debug .col1{
-    border: 3px dashed white;
+    /* border: 3px dashed white; */
 
 }
 
 .debug .logo2, .debug .bottone {
-    border: 3px dashed black;
-    background-color: #ffc0cb;
+    /* border: 3px dashed black; */
+    /* background-color: #ffc0cb; */
 }
 /* COMMON */
 
@@ -131,6 +122,7 @@ section:nth-child(even) {
 header {
     background-color: #255EE9;
     color: white;
+    padding-top: 16px;
 }
 
 .header-top{
@@ -278,26 +270,55 @@ main section:last-child {
 
 .col-pink {
     width: 30%;
+    color:white;
+    padding: 50px 20px;
+}
+
+.col-pink h1 {
+    color: #7289DA;
+}
+
+.flagita {
+    width: 20px;
+}
+
+i{
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .col-acqua {
     width: 70%;
-    background-color: #20b2aa;
+    /* background-color: #20b2aa; */
     display: flex;
 }
 
 .col1{
     width: 25%;
+    padding: 50px 20px;
+}
+
+.col1 h4{
+    color: #7289DA;
+    margin-bottom: 10px;
+}
+
+li{
+    color:white;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.pre-footer {
+    border-bottom:1px solid #7289DA;
 }
 
 .row-acqua{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding:20px 0;
-    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
-
 }
 
 .logo2 {
@@ -308,4 +329,8 @@ main section:last-child {
 .bottone {
     width: 10%;
     padding:10px;
+}
+
+.bottone .btn{
+    background-color: #7289DA;
 }
