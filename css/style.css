@@ -124,6 +124,8 @@ section:nth-child(even) {
     font-size: 20px;
 }
 
+
+
 /* HEADER */
 
 header {
@@ -239,12 +241,29 @@ main section:not(:first-child) {
     margin-top: 400px;
 }
 
+main section:last-child {
+    margin-bottom: 200px;
+}
+
 .big-box img {
     width:100%;
 }
 
 #green {
     padding: 40px 0px;
+}
+
+.big-box-footer {
+    text-align: center;
+}
+
+.big-box-footer img {
+    width: 80%;    
+}
+
+.big-box-footer .btn {
+    background-color: #7289DA;
+    color:white;
 }
 
 /* FOOTER */
@@ -259,8 +278,6 @@ main section:not(:first-child) {
 
 .col-pink {
     width: 30%;
-    
-
 }
 
 .col-acqua {
