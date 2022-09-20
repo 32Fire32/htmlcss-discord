@@ -36,7 +36,7 @@ body {
 }
 
 .debug .hero {
-    height: 400px;
+    /* height: 400px; */
     /* background-color: #ee82ee; */
     /* border: 3px dashed black; */
 
@@ -48,13 +48,13 @@ body {
 }
 
 .debug .col-big{
-    background-color: #1e90ff;
-    border: 3px dashed black;
+    /* background-color: #1e90ff; */
+    /* border: 3px dashed black; */
 }
 
 .debug .col-small {
-    background-color: #ffc0cb;
-    border: 3px dashed black;
+    /* background-color: #ffc0cb; */
+    /* border: 3px dashed black; */
 }
 
 .debug .row {
@@ -101,7 +101,7 @@ body {
 }
 
 section:nth-child(even) {
-    background-color: #d3d3d3;
+    /* background-color: #d3d3d3; */
 }
 
 /* BUTTONS */
@@ -188,11 +188,23 @@ header {
     margin-bottom: 30px;
 }
 
+.col-small{
+    padding: 35px;
+}
+
+.col-small .title-header {
+    text-align: left;
+}
+
 .par-header {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 35px;
     margin-bottom: 20px;
+}
+
+.col-small .par-header {
+    text-align: left;
 }
 
 .button-header {
