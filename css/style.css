@@ -37,6 +37,9 @@ body {
     padding:12px;
     border-radius: 50px;
     border: none;
+    display: inline-block;
+    text-decoration: none;
+    
 }
 
 .button-header {
@@ -75,6 +78,7 @@ body {
 
 .bottone .btn{
     background-color: #7289DA;
+    color:#fff;
 }
 
 
