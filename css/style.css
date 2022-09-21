@@ -30,6 +30,9 @@ body {
     max-width: 1200px;
     margin:auto;
 }
+.image-fluid {
+  width:100%;    
+}
 
 /* BUTTONS */
 
@@ -143,7 +146,7 @@ header {
 
 /* MAIN */
 
-main section:nth-child(1n+2)::before{
+.wave::before{
     height: 150px;
     content:"";
     background-image: url(../img/wave.svg);
@@ -151,11 +154,19 @@ main section:nth-child(1n+2)::before{
     transform: rotate(180deg);
 }
 
-main section:nth-child(even)::after{
+.wave::after{
     height: 150px;
     content:"";
     background-image: url(../img/wave.svg);
     display: block;
+}
+
+#big::before{
+    height: 150px;
+    content:"";
+    background-image: url(../img/wave.svg);
+    display: block;
+    transform: rotate(180deg);
 }
 
 main section:nth-child(even) {
@@ -163,8 +174,7 @@ main section:nth-child(even) {
 }
 
 .col-big {
-    width: 60%;
-    
+    width: 60%;    
 }
 
 .col-small {
@@ -196,9 +206,9 @@ main section:not(:first-child) {
     margin-top: 400px;
 }
 
-/* main section:last-child {
-    margin-bottom: 200px;
-} */
+main section:last-child {
+    padding-bottom: 200px;
+}
 
 .big-box img {
     width:100%;
