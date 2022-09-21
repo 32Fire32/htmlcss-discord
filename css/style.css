@@ -135,6 +135,25 @@ header {
 
 /* MAIN */
 
+main section:nth-child(1n+2)::before{
+    height: 150px;
+    content:"";
+    background-image: url(../img/wave.svg);
+    display: block;
+    transform: rotate(180deg);
+}
+
+main section:nth-child(even)::after{
+    height: 150px;
+    content:"";
+    background-image: url(../img/wave.svg);
+    display: block;
+}
+
+main section:nth-child(even) {
+    background-color: gray;
+}
+
 .col-big {
     width: 60%;
     
@@ -169,16 +188,12 @@ main section:not(:first-child) {
     margin-top: 400px;
 }
 
-main section:last-child {
+/* main section:last-child {
     margin-bottom: 200px;
-}
+} */
 
 .big-box img {
     width:100%;
-}
-
-#big {
-    padding: 40px 0px;
 }
 
 .big-box-footer {
